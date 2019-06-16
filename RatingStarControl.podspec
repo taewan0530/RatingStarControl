@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'RatingStarControl'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of RatingStarControl.'
+  s.summary          = '별점 입력 및 표현을 해주는 커스텀뷰'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -22,21 +22,13 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/taewan0530/RatingStarControl'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'wani.kim' => 'taewan0530@daum.net' }
+  s.author           = { 'taewan0530' => 'taewan0530@daum.net' }
   s.source           = { :git => 'https://github.com/taewan0530/RatingStarControl.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
+  s.swift_version = '4.0'
 
   s.source_files = 'RatingStarControl/Classes/**/*'
   s.resources = 'RatingStarControl/Assets/*.xcassets'
-  # s.resource_bundles = {
-  #   'RatingStarControl' => ['RatingStarControl/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
