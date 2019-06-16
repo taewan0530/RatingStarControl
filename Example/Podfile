@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RatingStarControl_Example' do
+  pod 'RatingStarControl', :path => '../'
+
+  target 'RatingStarControl_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
