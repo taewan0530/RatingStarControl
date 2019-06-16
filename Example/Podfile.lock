@@ -1,0 +1,16 @@
+PODS:
+  - RatingStarControl (0.1.0)
+
+DEPENDENCIES:
+  - RatingStarControl (from `../`)
+
+EXTERNAL SOURCES:
+  RatingStarControl:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RatingStarControl: 816432a6829e7b0bb1010ff66b851043ef66089e
+
+PODFILE CHECKSUM: 31256143e27a2157c4ef1489eab368058cc4f5ba
+
+COCOAPODS: 1.7.1

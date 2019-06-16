@@ -1,0 +1,22 @@
+{
+  "name": "RatingStarControl",
+  "version": "0.1.0",
+  "summary": "A short description of RatingStarControl.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wani.kim/RatingStarControl",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wani.kim": "taewan0530@daum.net"
+  },
+  "source": {
+    "git": "https://github.com/wani.kim/RatingStarControl.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RatingStarControl/Classes/**/*"
+}
